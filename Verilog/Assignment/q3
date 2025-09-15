@@ -1,0 +1,11 @@
+module addtion;
+    reg[3:0] a;
+    reg [3:0] b;
+    reg [7:0] y;
+    initial begin;
+     a=9;
+     b=3;
+     y=a*b;
+    $display("add=%d",y);
+    end
+endmodule
