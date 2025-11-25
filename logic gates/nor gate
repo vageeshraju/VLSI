@@ -1,0 +1,6 @@
+module (
+    output x,
+    input a,b
+);
+assign x=~(a|b);
+endmodule
