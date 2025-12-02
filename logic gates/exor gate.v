@@ -1,4 +1,4 @@
-module exoe_gate (
+module exor_gate (
     output x,
     input a,b
 );
