@@ -1,4 +1,4 @@
-module  not_gate(
+module  nor_gate(
     output x,
     input a,b
 );
