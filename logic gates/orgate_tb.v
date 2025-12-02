@@ -1,5 +1,5 @@
 `timescale 1 ns/1ps
-module or_gate ();
+module or_gate_tb();
   reg a,b;
   wire y;
   or_gate dut (
