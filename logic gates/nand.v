@@ -1,4 +1,4 @@
-module (
+module nand_gate(
     output x,
     input a,b
 );
