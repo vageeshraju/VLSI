@@ -11,6 +11,6 @@ dumpfile("and_gate_tb.vcd");
 dumpvars(0,and_gate_tb);
 #10 a=0; b=1;
 #10 a=1; b=1;
-$display ("y=%b,a=%b,b=%b",y,a,b);
+#30 $monitor ("y=%b,a=%b,b=%b",y,a,b);
 end
 endmodule
