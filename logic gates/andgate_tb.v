@@ -7,10 +7,11 @@ and_gate dut (
 .b(b),
 .y(y));
 initial begin 
-dumpfile("and_gate_tb.vcd");
-dumpvars(0,and_gate_tb);
+$dumpfile("and_gate_tb.vcd");
+$dumpvars(0,and_gate_tb);
+$monitor ("y=%b,a=%b,b=%b",y,a,b);
 #10 a=0; b=1;
 #10 a=1; b=1;
-#30 $monitor ("y=%b,a=%b,b=%b",y,a,b);
+#30 $finish;
 end
 endmodule
