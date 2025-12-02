@@ -3,4 +3,4 @@ module exoe_gate (
     input a,b
 );
 assign x=a^b;
-endmodule;
+endmodule
