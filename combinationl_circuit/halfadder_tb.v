@@ -10,7 +10,7 @@ half_adder dut(
 initial begin
 $dumpfile ("halfadder.vcd");
 $dumpvars (0,ha_tb);
-$monitor ("a=%b,b=%b,S=%b,c=%b",a,b,sum,carry);
+  $monitor ("a=%b,b=%b,Sum=%b,carry=%b",a,b,sum,carry);
 #5a=0;b=0;
 #5a=0;b=1;
 #5a=1;b=0;
